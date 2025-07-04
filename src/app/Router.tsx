@@ -8,6 +8,11 @@ import OrdersPage from "../pages/OrdersPage";
 import CreateOrderPage from "../pages/CreateOrderPage";
 import Home from "../pages/Home";
 
+// Определяем basename в зависимости от среды
+const basename = import.meta.env.PROD 
+  ? "/pcounter-front"  // Для production (GitHub Pages)
+  : "/";               // Для разработки
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -46,7 +51,7 @@ const router = createBrowserRouter([
   },
 ],
 {
-  basename: "/pcounter-front"
+  basename: basename
 });
 
 export default router;
