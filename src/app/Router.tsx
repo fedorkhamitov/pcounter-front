@@ -47,7 +47,7 @@ const router = createBrowserRouter([
         element: <AddProductPage />,
       },
     ],
-    errorElement: Error404()
+    errorElement: <Error404 />
   },
 ],
 {
