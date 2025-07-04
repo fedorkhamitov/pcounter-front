@@ -10,7 +10,7 @@ import Home from "../pages/Home";
 
 // Определяем basename в зависимости от среды
 const basename = import.meta.env.PROD 
-  ? "/pcounter-front"  // Для production (GitHub Pages)
+  ? "/pcounter-front/"  // Для production (GitHub Pages)
   : "/";               // Для разработки
 
 const router = createBrowserRouter([
