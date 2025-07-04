@@ -1,1 +1,55 @@
+### === Зависимости === ###
+node_modules/       # Библиотеки - всегда исключать!
+.pnp                # Yarn PnP
+.pnp.js             # Yarn PnP
+
+
+### === Сборка === ###
+dist/               # Папка сборки Vite
+dist-ssr/           # SSR сборка
+*.local             # Локальные файлы конфигурации
+
+
+### === Кэш === ###
+.cache/             # Кэш Vite/ESLint
+.turbo              # Кэш Turborepo
+
+
+### === Логи === ###
+npm-debug.log*      # Логи npm
+yarn-debug.log*     # Логи Yarn
+yarn-error.log*     # Ошибки Yarn
+pnpm-debug.log*     # Логи pnpm
+
+
+### === Окружение === ###
+.env                # Переменные окружения
+.env.local          # Локальные переменные
+.env.*              # Все другие env файлы
+!.env.example       # Исключение - пример файла
+
+
+### === Редактор/IDE === ###
+.vscode/            # Настройки VS Code
+.idea/              # Настройки JetBrains IDE
+*.suo               # Настройки пользователя Visual Studio
+*.ntvs*             # Настройки NTVS
+*.njsproj           # Проект Node.js Tools
+*.sln               # Решение Visual Studio
+*.sw?               # Файлы свопинга
+
+
+### === Системные файлы === ###
+.DS_Store           # macOS атрибуты папок
+Thumbs.db           # Windows thumbnails
+
+
+### === Тестирование === ###
+/coverage           # Отчеты о покрытии тестами
+.nyc_output         # Выходные данные NYC
+
+
+### === Vite специфичные === ###
+__pycache__/        # Кэш Python (может появляться в некоторых случаях)
+.vite-inspect       # Инспекция Vite
 node_modules
