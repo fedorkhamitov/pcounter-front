@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 type LoginFormProps = {
-  apiUrl: string; // URL вашего API, например: "https://example.com/api/login"
+  apiUrl: string;
 };
 
 const LoginForm: React.FC<LoginFormProps> = ({ apiUrl }) => {
