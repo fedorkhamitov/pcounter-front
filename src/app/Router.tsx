@@ -44,6 +44,9 @@ const router = createBrowserRouter([
     ],
     errorElement: <Error404 />
   },
-]);
+],
+  {
+    basename: "/pcounter-front",
+  });
 
 export default router;
