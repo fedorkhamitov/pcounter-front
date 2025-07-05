@@ -38,11 +38,9 @@ export default function Header() {
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          {/* Логотип или название сайта */}
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             PocketCounter
-          </a>
-          {/* Кнопка для мобильного меню */}
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
