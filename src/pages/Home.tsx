@@ -10,11 +10,11 @@ const Home: React.FC = () => (
     height: "100vh"
   }}>
     <Link to="/products" style={{ textAlign: "center", textDecoration: "none" }}>
-      <img src="/pcounter-front/products-svg-logo.svg" alt="Продукты" width={120} height={120} />
+      <img src="/pcounter-front/assets/products-svg-logo.svg" alt="Продукты" width={120} height={120} />
       <div style={{ marginTop: 12, fontSize: 18, color: "#333" }}>Продукты</div>
     </Link>
     <Link to="/orders" style={{ textAlign: "center", textDecoration: "none" }}>
-      <img src="/pcounter-front/orders-svg-logo.svg" alt="Заказы" width={120} height={120} />
+      <img src="/pcounter-front/assets/orders-svg-logo.svg" alt="Заказы" width={120} height={120} />
       <div style={{ marginTop: 12, fontSize: 18, color: "#333" }}>Заказы</div>
     </Link>
   </div>
