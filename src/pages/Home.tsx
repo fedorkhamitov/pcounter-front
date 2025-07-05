@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import productsLogo from "../assets/products-svg-logo.svg";
-import ordersLogo from "../assets/orders-svg-logo.svg";
+import productsLogo from "../../public/products-svg-logo.svg";
+import ordersLogo from "../../public/orders-svg-logo.svg";
 
 const Home: React.FC = () => (
   <div style={{
