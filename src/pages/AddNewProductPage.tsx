@@ -58,7 +58,7 @@ const AddProductPage: React.FC = () => {
     const productData = {
       sku: inputs.sku,
       title: inputs.title,
-      description: inputs.description ?? "Без описания",
+      description: inputs.description.trim() === "" ? "Без описания" : inputs.description,
       price: inputs.price === "" ? 0 : Number(inputs.price),
       costPrice: inputs.costPrice === "" ? 0 : Number(inputs.costPrice),
       width: inputs.width === "" ? 0 : Number(inputs.width),
